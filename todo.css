@@ -1,47 +1,7 @@
-body {
-  font-family: sans-serif;
-  background: #fffde7;
-  text-align: center;
-  padding: 50px;
+.task-card {
+  border-left: 5px solid #007ea7;
 }
-
-.todo-container {
-  max-width: 400px;
-  margin: auto;
-  background: #ffffff;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px #ccc;
-}
-
-input {
-  padding: 10px;
-  width: 70%;
-  margin-right: 5px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-
-button {
-  padding: 10px 15px;
-  background: #007ea7;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-li {
-  margin-top: 10px;
-  text-align: left;
-  display: flex;
-  justify-content: space-between;
-  padding: 8px;
-  background: #f9f9f9;
-  border-radius: 5px;
-}
-
-li.completed {
-  text-decoration: line-through;
-  color: gray;
+.timer {
+  font-weight: bold;
+  color: #007ea7;
 }
